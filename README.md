@@ -23,7 +23,7 @@ array = np.array([0.6110171,
 # converting the NumPy array to a Pandas series
 series = pd.Series(array) 
 ~~~ 
-## multidimentional array to a single dimension array
+## multi-dimentional array to a single dimension array
 
 ~~~ python
 ary = np.array([[1,2,3], [4,5,6]])
