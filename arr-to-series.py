@@ -1,7 +1,6 @@
 # array-to-series
 ## converting a numpy array into a series in python
 
- ~~~ python
 # importing the modules
 import numpy as np
 import pandas as pd
@@ -22,22 +21,17 @@ array = np.array([0.6110171,
   
 # converting the NumPy array to a Pandas series
 series = pd.Series(array) 
-~~~ 
+
 ## multi-dimentional array to a single dimension array
 
-~~~ python
+
 ary = np.array([[1,2,3], [4,5,6]])
-~~~
 
-We can use two methods , ravel or flatten
+
+# We can use two methods , ravel or flatten
 ## Ravel
-
-~~~ python
 singl = ary.ravel()
-~~~
 
 ## Flatten
-
-~~~ python
 singl2 = ary.flatten()
-~~~
+
